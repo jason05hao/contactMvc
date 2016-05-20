@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Brite - Test</title>
+
+    <!-- Note: In real application, should not have the ../../../others/ (just to avoid duplications across sample apps)
+               it should be href="bootstrap/css/bootstrap.min.css
+    -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+
+
+    <!-- Best-Practice: this is the main css to be included first. Component css will be included
+                        dynamically, and all start with UpperCase to match their component name -->
+    <link rel="stylesheet" href="css/main.css" />
+    
+    <!-- This is the only hard dependency for brite.js -->
+    <script type="text/javascript" src="js/jquery-1.12.3.js" ></script>
+    
+    <!-- Best-Practice: Use handlebars. -->
+    <script type="text/javascript" src="js/handlebars-v4.0.5.js" ></script>
+
+    
+    <!-- Note: Should be "js/brite.min.js" but for this sample code we reuse the shared lib -->
+    <script type="text/javascript" src="js/brite.js" ></script>
+    <script type="text/javascript" src="js/brite.RemoteDaoHandler.js" ></script>
+    <script type="text/javascript" src="js/main.js" ></script>
+      
+    
+  </head>
+  
+  <body>
+    <!-- Best-Practice: Here with use a "pageBody" element to get more flexibility on how we want to display 
+                        the application. This pageBody will be position in the main.css. -->
+    <div id="pageBody">
+      
+    </div>
+  </body>
+  
+</html>

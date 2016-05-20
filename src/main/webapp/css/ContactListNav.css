@@ -1,0 +1,60 @@
+.ContactListNav{
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  background: url(images/nav-bg.png);
+  border-right: solid 1px #b3c5d3;
+  -moz-box-shadow: inset 0 0 6px rgba(50,50,50,.29);
+  -webkit-box-shadow: inset 0 0 6px rgba(50,50,50,.29);
+  box-shadow: inset 0 0 6px rgba(50,50,50,.29);
+}
+
+.ContactListNav h2{
+  margin: 0;
+  padding: 7px 0 5px 10px;
+  line-height: normal;
+  font-size: 20px; 
+  color: rgba(100,100,100,.5);
+  border-bottom: solid 1px #b3c5d3;
+}
+
+.ContactListNav ul{
+  margin: 0;
+  padding: 0;
+  border-top: solid 1px rgba(255,255,255,.5);
+}
+
+.ContactListNav ul  li{
+  list-style: none;
+  margin: 0;
+  padding: 5px 0 5px 10px;
+  opacity: .8;
+  cursor: pointer;
+}
+
+.ContactListNav ul li.sel{
+  opacity: 1;
+  font-weight: bold;
+}
+
+.ContactListNav ul li > i{
+  margin-right: 10px;
+}
+.AddNewContact{
+    margin: 10px;
+    a{
+        float: right;
+    }
+    input{
+        display: none;
+    }
+    float: bottom;
+}
+
+.AddNewContact.active{
+    a{
+        display: none;
+    }
+    input{
+        display: block;
+    }
+}

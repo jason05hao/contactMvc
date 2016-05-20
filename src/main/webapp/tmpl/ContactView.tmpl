@@ -1,0 +1,70 @@
+<script id="tmpl-ContactView" type="text/html">
+  <div class="ContactView">
+    <div class="card">
+      <div class="card-face card-front">
+        <section class="heading">
+          <label>Contact Detail</label>
+        </section>
+        <section class="content">
+            <div class="hidden">
+                <input type="hidden" data-prop="contact" name="id" value="{{contact.id}}" class="form-control">
+            </div>
+            <div class="row">
+                <div class="col-sm-3"><label>First Name</label></div>
+                <div class="col-sm-3"><input type="text" data-prop="contact" name="firstName" value="{{contact.firstName}}" class="form-control" ></span></div>
+                <div class="col-sm-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3"><label>Last Name</label></div>
+                <div class="col-sm-3"><input type="text" data-prop="contact" name="lastName" value="{{contact.lastName}}" class="form-control" ></span></div>
+                <div class="col-sm-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3"><label>Email</label></div>
+                <div class="col-sm-3"><input type="text" data-prop="contact" name="email" value="{{contact.email}}" class="form-control" ></span></div>
+                <div class="col-sm-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3"><label>Website</label></div>
+                <div class="col-sm-3"><input type="text" data-prop="contact" name="website" value="{{contact.website}}" class="form-control" ></div>
+                <div class="col-sm-3"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-3"><label>Phone Number</label></div>
+                <div class="col-sm-3"><input type="text" data-prop="contact" name="phoneNumber" value="{{contact.phoneNumber}}" class="form-control" ></div>
+                <div class="col-sm-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3"><label>Address</label></div>
+                <div class="col-sm-3"><input type="text" data-prop="contact" name="address" value="{{contact.address}}" class="form-control" ></div>
+                <div class="col-sm-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3"><label>City</label></div>
+                <div class="col-sm-3"><input type="text" data-prop="contact" name="city" value="{{contact.city}}" class="form-control" ></div>
+                <div class="col-sm-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3"><label>State</label></div>
+                <div class="col-sm-3"><input type="text" data-prop="contact" name="state" value="{{contact.state}}" class="form-control" ></div>
+                <div class="col-sm-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3"><label>Country</label></div>
+                <div class="col-sm-3"><input type="text" data-prop="contact" name="country" value="{{contact.country}}" class="form-control" ></div>
+                <div class="col-sm-3"></div>
+            </div>
+            <div>
+                <button data-action="save" class="btn btn-small btn-primary">Save</button>
+                <button data-action="delete" class="btn btn-small">Delete</button>
+            </div>
+        </section>
+      </div> <!-- /.card-front -->
+      
+      <div class="card-face card-back">
+        
+      </div>
+    </div> <!-- /.card -->
+  </div>
+</script>

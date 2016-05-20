@@ -1,0 +1,11 @@
+insert into Contact("firstName", "lastName", email, website, "phoneNumber", address, city, state, country) values('Jason', 'Hao', 'Jason.hao@gmail.com', 'www.jasonhao1.com', '647-947-93661', '191 Selwyn road', 'Richmond Hill', 'Ontario', 'Canada');
+insert into Contact("firstName", "lastName", email, website, "phoneNumber", address, city, state, country) values('Crystal', 'Hao', 'Crystal.hao@gmail.com', 'www.jasonhao2.com', '647-947-93662', '192 Selwyn road', 'Richmond Hill', 'Ontario', 'Canada');
+insert into Contact("firstName", "lastName", email, website, "phoneNumber", address, city, state, country) values('Iris', 'Hao', 'Iris.hao@gmail.com', 'www.jasonhao3.com', '647-947-93663', '193 Selwyn road', 'Richmond Hill', 'Ontario', 'Canada');
+insert into Contact("firstName", "lastName", email, website, "phoneNumber", address, city, state, country) values('Andy', 'Hao', 'Andy.hao@gmail.com', 'www.jasonhao4.com', '647-947-93664', '194 Selwyn road', 'Richmond Hill', 'Ontario', 'Canada');
+insert into Contact("firstName", "lastName", email, website, "phoneNumber", address, city, state, country) values('Maria', 'Hao', 'Maria.hao@gmail.com', 'www.jasonhao5.com', '647-947-93665', '195 Selwyn road', 'Richmond Hill', 'Ontario', 'Canada');
+insert into Contact("firstName", "lastName", email, website, "phoneNumber", address, city, state, country) values('John', 'Hao', 'John.hao@gmail.com', 'www.jasonhao6.com', '647-947-93666', '196 Selwyn road', 'Richmond Hill', 'Ontario', 'Canada');
+insert into Contact("firstName", "lastName", email, website, "phoneNumber", address, city, state, country) values('Emily', 'Hao', 'Emily.hao@gmail.com', 'www.jasonhao7.com', '647-947-93667', '197 Selwyn road', 'Richmond Hill', 'Ontario', 'Canada');
+insert into Contact("firstName", "lastName", email, website, "phoneNumber", address, city, state, country) values('Andrew', 'Hao', 'Andrew.hao@gmail.com', 'www.jasonhao8.com', '647-947-93668', '198 Selwyn road', 'Richmond Hill', 'Ontario', 'Canada');
+insert into Contact("firstName", "lastName", email, website, "phoneNumber", address, city, state, country) values('Amy', 'Hao', 'Amy.hao@gmail.com', 'www.jasonhao9.com', '647-947-93669', '199 Selwyn road', 'Richmond Hill', 'Ontario', 'Canada');
+
+

@@ -1,0 +1,19 @@
+<script id="tmpl-ContactListNav" type="text/html">
+  <div class="ContactListNav">
+    <h2>Contacts</h2>
+    <div class="list-container">
+
+    </div>
+	<div class="AddNewContact">
+		<a data-action="new">Add New contact</a>
+	</div>
+   </div>
+</script>
+
+<script id="tmpl-ContactListNav-list" type="text/html">
+  <ul>
+    {{#each contacts}}
+    <li data-entity="Contact" data-entity-id="{{id}}"><i class="icon-folder-close"></i>{{firstName}} {{lastName}}</li>
+    {{/each}}
+  </ul>  
+</script>

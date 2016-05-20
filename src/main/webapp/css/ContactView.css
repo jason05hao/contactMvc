@@ -1,0 +1,145 @@
+.ContactView{
+  position: absolute;
+  top: 10px; right: 10px; bottom: 10px; left: 10px;
+  -webkit-perspective: 10000px;
+}
+.ContactView .card{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -webkit-transition: -webkit-transform .5s;
+  -moz-transition: -moz-transform .5s;
+  -o-transition: -o-transform .5s;
+}
+
+.ContactView .card-face{
+  opacity: .999; /* hack to allow position: relative or absolute in the card-face */
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+   border: solid 3px #ccc;
+  -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.5);
+  -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.5);
+  box-shadow: 1px 2px 5px rgba(0,0,0,.5);   
+  background-color: #fff;     
+}
+
+.ContactView .card-front{
+  -webkit-transform: rotateY( 0deg );
+}
+
+.ContactView .card-back{
+  -webkit-transform: rotateY( -180deg );
+  -moz-transform: rotateY( -180deg );
+  -o-transform:rotateY(-180deg); /* Opera */
+  transform: rotateY( -180deg );
+}
+
+.has-no-backfacevisibility .ContactView .card-back{
+  display: none;
+}
+
+.ContactView .card.flipped {
+  -webkit-transform: rotateY( 180deg );
+  -moz-transform: rotateY( 180deg );
+  -o-transform:rotateY(-180deg); /* Opera */
+  transform: rotateY( 180deg );
+}
+
+.ContactView header{
+  position: relative;
+  padding: 0;
+  height: 35px;
+  background-color: #efefef;
+}
+
+.ContactView .header-fav, .ContactView .header-setting{
+  position: absolute;
+  top: 5px; 
+  width: 32px;
+  height: 35px;
+}
+
+.ContactView .header-fav{
+  left: 5px;
+}
+
+.ContactView .header-setting{
+  right: 0px;
+  width: 23px;
+}
+.ContactView header i{
+  margin-top: 4px;
+}
+
+.ContactView header h2{
+  color: #666;
+  letter-spacing: .2em;
+  text-shadow: #fff 0px 1px 0;
+  line-height: normal;
+  font-weight: bold;
+  margin: 0;
+  padding: 7px 0 0 12px;
+  font-size: 18px;
+}
+
+.ContactView header input{
+  border: none;
+  color: #999;
+  font-size: 23px;
+  font-weight: bold;
+  width: 300px;
+  margin-top: 6px;
+  margin-left: -5px;
+  letter-spacing: .1em;
+}
+
+.ContactView header .helper{
+  display: inline;
+  margin-left: 10px;
+}
+
+.ContactView section.heading{
+  position: relative;
+  margin: 0;
+  height: 36px;
+  background-image: -moz-linear-gradient(bottom, #F1F1F1 0%, #FDFDFD 100%);
+  background-image: -o-linear-gradient(bottom, #F1F1F1 0%, #FDFDFD 100%);
+  background-image: -webkit-linear-gradient(bottom, #F1F1F1 0%, #FDFDFD 100%);
+  background-image: linear-gradient(bottom, #F1F1F1 0%, #FDFDFD 100%);
+  border-top: solid 1px #EEE;
+  border-bottom: solid 1px #DDD;
+}
+
+.ContactView section.content{
+  position: absolute;
+  top: 35px; right: 0; bottom: 0; left: 0;
+}
+
+.ContactView section.content.withPadding{
+  padding: 10px;
+}
+
+.ContactView section.heading label{
+  display: block;
+  margin: 7px 0 0 40px;
+  font-weight: bold;
+}
+
+
+.ContactView .table{
+  margin: 0;
+}
+
+.ContactView section.content{
+  position: absolute;
+  top: 70px; right: 0px; bottom: 0px; left: 0; 
+}
