@@ -4,7 +4,7 @@ First, compile everything.
 ```
 mvn clean package
 ```
-Second, create the database and tales.
+Second, create the database and tables by running the command line.
 ```
 postgre_db.bat
 ```
